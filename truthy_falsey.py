@@ -1,5 +1,6 @@
 # Truthy and falsey values
 
+
 print("Enter a name")
 name = input()
 if name:    # Truthy or Falsey

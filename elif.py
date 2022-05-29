@@ -1,5 +1,6 @@
 # Using Elif
 
+
 print("What is the password?")
 pwd = input()
 if pwd == "swordfish":
