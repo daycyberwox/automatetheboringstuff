@@ -44,3 +44,7 @@ print(yesornah1)  # Should be false
 nahhh1 = 42 not in ["hello", "hi", "howdy", "heya"]
 print(nahhh1) # Should be true
 
+
+# Listing the items in a range
+print(list(range(4)))  # list items between 0 and 4 but not including 4
+print(list(range(0, 100, 2)))   # list items between 0 and 100 but not including 100 with increments of 2
