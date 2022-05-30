@@ -1,8 +1,6 @@
 # Guessing the number game
 
 import random  # Random module
-import sys
-
 
 # STAGE 1  
 print("Hello! What is your name?")  # Asks user for their name
