@@ -5,6 +5,7 @@ def div42by(divideByNum):  # function to divide 42 by any number
     try:         # Adding the try statement
         return 42 / divideByNum
     except ZeroDivisionError:
+  # except:  # This will catch all errors instead of a specific error like ZeroDivisionError:
         print("Error: You tried to divide by zero.")
 
 print(div42by(2))
