@@ -2,8 +2,8 @@
 file = r'/Users/dayspring/Desktop/'
 
 totalSize = 0
-for filename in os.listdir(r'/Users/dayspring/Desktop/'):
-    if not os.path.isfile(os.path.join(r'/Users/dayspring/Desktop/', filename))
+for filename in os.listdir(file):
+    if not os.path.isfile(os.path.join(file, filename))
         continue
-    totalSize = totalSize + os.path.getsize(os.path.join(r'/Users/dayspring/Desktop/', filename))
+    totalSize = totalSize + os.path.getsize(os.path.join(file, filename))
 print(totalSize)
